@@ -1,18 +1,96 @@
 <!DOCTYPE html>
 <html lang="en-UK">
 <head>
-  <title>Publications</title>
+  <title>Home</title>
   <meta charset="UTF-8">
+</head>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+</style>
 </head>
 <body style="background-color:lightgrey;">
 
-<h1 style="text-align:center;">Calum Ross</h1>
+<div class="header">
+  <!--<a href="#default" class="logo">CompanyLogo</a>-->
+  <h1>Calum Ross</h1>
+  <div class="header-right">
+    <a  href="https://cdross1.github.io">Home</a>
+    <a class="active" href="https://cdross1.github.io/research">Research</a>
+    <a href="https://cdross1.github.io/teaching">Teaching</a>
+	<a href="https://cdross1.github.io/notes">Notes</a>
+  </div>
+</div>
 
-<hr>
+<!--<div style="text-align:center:20px">
+  <h1>Calum Ross</h1>
+</div>-->
+
+</body>
+<body>
+
 <img src="photo.jpg" alt="" width="300" height="400">
+<h2> Research </h2>
+<p> </p>
+
 <h2>Publications</h2>
 
-<p>An up to date list of my publications can be found on <a href="https://arxiv.org/a/ross_c_1.html"> arxiv</a>.</p>
+<p>An up to date list of my publications can be found on <a href="https://arxiv.org/a/ross_c_1.html"> arXiv</a>.</p>
 <p>Magnetic Zero-Modes, Vortices and Cartan Geometry (with Bernd Schroers). Letters in Mathematical Physics, 108: 949, 2018 <a href="https://link.springer.com/article/10.1007/s11005-017-1023-2">online version</a>. <a href="https://arxiv.org/abs/1705.09632">arXiv:1705.09632</a>. </p> 
 <p>Hyperbolic vortices and Dirac fields in 2+1 dimensions (with Bernd Schroers). J Phys A 51: 295202, 2018   <a href="http://iopscience.iop.org/article/10.1088/1751-8121/aac597" >online version</a>. <a href="https://arxiv.org/abs/1803.11120">arXiv:1803.11120</a>. </p>
 <p>Linked and knotted synthetic magnetic fields (with Callum Duncan, Niclas Westerberg, Manuel Valiente, Bernd Schroers and Patrik Ohberg). Phys. Rev. A 99, 063613, 2019 <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.99.063613" >online version</a>. <a href="https://arxiv.org/abs/1808.03655">arXiv:1808.03655</a>. </p>
