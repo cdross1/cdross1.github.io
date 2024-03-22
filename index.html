@@ -3,129 +3,124 @@
 <html lang="en-UK">
 <head>
   <title>Home</title>
-  <meta charset="UTF-8">
+ <!-- <meta charset="UTF-8">-->
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+body { 
+  margin: 1;
+  font-family: 'Times New Roman', serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: lightgrey;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
 </head>
 <body style="background-color:lightgrey;">
 
-<h1 style="text-align:center;">Calum Ross</h1>
+<div class="header">
+  <h1>Calum Ross</h1>
+  <div class="header-right">
+    <a class="active" href="#home">Home</a>
+    <a href="https://cdross1.github.io/research">Research</a>
+    <a href="https://cdross1.github.io/teaching">Teaching</a>
+	<a href="https://cdross1.github.io/notes">Notes</a>
+  </div>
+</div>
+  <hr>
+</body>
 
-<hr>
-<img src="photo.jpg" alt="" width="300" height="400">
-<p>From September 2023 I am a Lecturer in Physics within the Computer Science Department at <a href ="https://www.edgehill.ac.uk/departments/academic/computerscience/">Edge Hill University</a>,  </p>
-<p>My research interests relate to Topological Solitons and their links to geometry, Differential Geometry and Gauge Theory. In particular my PhD work focused on studying a geometric interpretation of integrable vortex equations. I have continued working on this as well as studying the relationship between vortices and BPS monopoles. More recently I have worked on solvable models of magnetic skyrmions, as well as domain walls in one dimensional chiral magnets.</p>
-<p>Before joining Edge Hill, I was a Research Felow at <a href="https://www.ucl.ac.uk/"> University College London </a> within <a href= "http://www.homepages.ucl.ac.uk/~ucahlfo/Home.html">Lorenzo Foscolo's</a> group in the Mathematics department.</p>
-<p>Prior to that, I was a temporary Lecturer in Physics at <a href="https://www.ucc.ie/en/"> University College Cork</a> for the 2020-2021 academic year. In the first semester I taught PY2101 Classical Mechanics, in the second semester I taught PY3104 Statistical Thermodynamics and part of PY4126 Radiative Processes.</p>
-<p>In 2019-2020  I was a postdoctoral researcher in the <a href="https://sites.google.com/site/keiotopsci/ "> Topological Sciences</a> group at Keio university. While in Japan I primarily worked on magnetic solitons, particularly questions about the interaction of magnetic skyrmions and the phase diagram of chiral magnets. I am still affiliated with Keio University as a visiting researcher.</p>
+<body style="background-color:lightgrey;">
 
-
-<p>I did my PhD student in the mathematical physics group at Heriot-Watt University under the supervison of Bernd Schroers. While in Edinburgh I was a member of the <a href="https://empg.maths.ed.ac.uk">Edinburgh Mathematical Physics Group.</a> I have an MPhys in Theoretical Physics from Lancaster University and a MASt in Applied Mathematics from the University of Cambridge.
-At Lancaster I wrote a Master's project on Physical Applications of Products of Geometric Distributions and while at Cambridge I wrote a Part III Essay on the Geometry of Supersymmetric and Super-Conformal Quantum Mechanics.</p>
-<p>During the academic years 2016-2017 and  2017-2018 I organised the PhD student seminar series within MACS at Heriot-Watt. This is a weekly informal seminar series held in CM/T.01 on Fridays, offering PhD students to present their work or a topic that they are interested in to their peers.</p>
-<!--- For the academic year 2018-2019 <a href="http://www.macs.hw.ac.uk/~ace2/">Alex Evetts</a> has taken over organising them. The talks are sometimes advertised <a href="http://www.macs.hw.ac.uk/students/pgr/news-events/">here</a> and a record of previous talks as well as upcoming talks is <a href="http://www.macs.hw.ac.uk/~ace2/phd_seminar.html">here</a>.</p>--->
-<!---<p> Between January and September 2017 I participated in a reading group on String Theory and D-Branes. A webpage for the reading group is <a href="http://www.macs.hw.ac.uk/~cdr1/String_reading_group">here</a>.</p>-->
-<!---<p> From October 2017 until January 2018 there was a reading group running on renormalisation and effective field theories. Following this reading group we decided to start a short seminar series, the details of which are  <a href="https://cdross1.github.io/mpmss">here</a>.</p>-->
-<!---<p>In October 2018 we started a reading group on statistical field theory which ran until March 2019. A webpage for the reading group is <a href="http://www.macs.hw.ac.uk/~cdr1/sft">here</a>.</p>-->
+<!--<h1 style="text-align:center;">Calum Ross</h1>-->
 
 
+<img src="photo.jpg" alt="" width="300" height="400" class="center">
+<p>I am a mathematical physicist with an interest in topological solitons, particularly integrable vortices and magnetic skyrmions. Further details about my current and previous directions of research can be found on my <a href="https://cdross1.github.io/research">research page</a>. </p>
+<p>Currently, I am a Lecturer in Physics within the <a href ="https://www.edgehill.ac.uk/departments/academic/computerscience/">Computer Science</a> and <a href ="https://www.edgehill.ac.uk/departments/academic/engineering/">Enigineering</a> Department at Edge Hill University. My University research page is available <a href ="https://research.edgehill.ac.uk/en/persons/calum-ross">here</a>. </p>
+<!--<p>Since September 2023 I have been a Lecturer in Physics within the Computer Science Department at <a href ="https://www.edgehill.ac.uk/departments/academic/computerscience/">Edge Hill University</a>. My role at Edge Hill involves designing and developing a physics degree alongside colleagues in the engineering department.</p>-->
+<p>Before joining Edge Hill, I was a Research Felow at <a href="https://www.ucl.ac.uk/"> University College London </a> within <a href= "http://www.homepages.ucl.ac.uk/~ucahlfo/Home.html">Lorenzo Foscolo's</a> group in the Mathematics department.
+Prior to that, I was a special purpose Lecturer in Physics at <a href="https://www.ucc.ie/en/"> University College Cork</a> for the 2020-2021 academic year. Details of the modules that I taught while at UCC or on my <a href="https://cdross1.github.io/teaching">teaching page</a>.
+During 2019-2020, I was a postdoctoral researcher in the <a href="https://sites.google.com/site/keiotopsci/ "> Topological Sciences</a> group at Keio university. While in Japan I primarily worked on magnetic solitons, particularly questions about the interaction of magnetic skyrmions and the phase diagram of chiral magnets. I am still affiliated with Keio University as a visiting researcher.</p>
 
+
+<p>I did my PhD student in the mathematical physics group at Heriot-Watt University under the supervison of <a href ="https://www.macs.hw.ac.uk/~bernd/">Bernd Schroers</a>. While in Edinburgh I was an active member of the <a href="https://empg.maths.ed.ac.uk">Edinburgh Mathematical Physics Group.</a> I have an MPhys in Theoretical Physics from Lancaster University and a MASt in Applied Mathematics from the University of Cambridge.
+At Lancaster I did a Master's project on Physical Applications of Products of Geometric Distributions and while at Cambridge I wrote a Part III Essay on the Geometry of Supersymmetric and Super-Conformal Quantum Mechanics.</p>
+<!--<p>During the academic years 2016-2017 and  2017-2018 I organised the PhD student seminar series within MACS at Heriot-Watt. This is a weekly informal seminar series held in CM/T.01 on Fridays, offering PhD students to present their work or a topic that they are interested in to their peers.</p>-->
+
+
+<h3>Solitons at Work </h3>
+<p>The <a href = "http://solitonsatwork.net/?">Solitons at Work</a> network is an online community of researchers working on all things solitons. Since 2022 I have been a member of the organising committe and have helped to run the the online seminar series. Recordings of most of the talks are available on the <a href = "http://solitonsatwork.net/?display=seminars">seminar page</a>.  </p>
+
+<!-- <h3>Supervision</h3> <p> If you are interested in doing a PhD or MRes with me the please get in touch. Edge Hill University has a <a href ="https://www.edgehill.ac.uk/departments/support/graduateschool/graduate-positions/">GTA</a> scheme to fund PhD students. Broadly I am interested in topics related to topological solitons and whould be happy to supervise work on solitons in chiral magnets, the geometry of soliton moduli spaces, integrable vortices, instantons on gravitational instantons. </p> -->
+
+<h3> Chalkdust</h3>
+<p><a href ="https://chalkdustmagazine.com/">Chalkdust</a> is a magazine for the mathematically curious featuring articles written by mathematics enthusiast from all over the world. It is agreat magazine and I recommend that you check it out, though I may be biased as a member of the team that produces it.</p>
+
+<!--<h3> Outreach </h3>
+<p> </p> -->
 
 <h3>Contact</h3>
 <pre>Edge Hill University
 Email: calum.ross[at]edgehill[dot]ac[dot]uk</pre>
 
-<h3>Publications</h3>
 
-<!-- <p>An up to date list of my publications can be found on <a href="https://arxiv.org/a/ross_c_1.html"> arxiv</a>.</p> -->
-<p>Magnetic Zero-Modes, Vortices and Cartan Geometry (with Bernd Schroers). Letters in Mathematical Physics, 108: 949, 2018 <a href="https://link.springer.com/article/10.1007/s11005-017-1023-2">online version</a>. <a href="https://arxiv.org/abs/1705.09632">arXiv:1705.09632</a>. </p> 
-<p>Hyperbolic vortices and Dirac fields in 2+1 dimensions (with Bernd Schroers). J Phys A 51: 295202, 2018   <a href="http://iopscience.iop.org/article/10.1088/1751-8121/aac597" >online version</a>. <a href="https://arxiv.org/abs/1803.11120">arXiv:1803.11120</a>. </p>
-<p>Linked and knotted synthetic magnetic fields (with Callum Duncan, Niclas Westerberg, Manuel Valiente, Bernd Schroers and Patrik Ohberg). Phys. Rev. A 99, 063613, 2019 <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.99.063613" >online version</a>. <a href="https://arxiv.org/abs/1808.03655">arXiv:1808.03655</a>. </p>
-<p>Magnetic Skyrmions at Critical Coupling (with Bruno Barton-Singer and Bernd Schroers). Communications in Mathematical Physics 375, pages 2259–2280(2020) available online <a href= "https://link.springer.com/article/10.1007%2Fs00220-019-03676-1 "> here</a>. <a href="https://arxiv.org/abs/1812.07268">arXiv:1812.07268</a>.</p>
-<p>Skyrmion Interactions and Lattices in Chiral Magnets: Analytical Results (with Norisuke Sakai and Muneto Nitta). JHEP 02 (2021) 095 <a href="https://doi.org/10.1007/JHEP02(2021)095">online version</a>.  <a href="https://arxiv.org/abs/2003.07147">arXiv:2003.07147</a>. </p>
-<p>Exact Ground States and Domain Walls in One Dimensional Chiral Magnets (with Norisuke Sakai and Muneto Nitta). JHEP 12 (2021) 163 <a href="https://doi.org/10.1007/JHEP12(2021)163">online version</a>. <a href="https://arxiv.org/abs/2012.08800">arXiv:2012.08800</a>. </p>
-<p>Magnetic Impurities, Integrable Vortices and the Toda Equation (with Sven Bjarke Gudnason). Letters in Mathematical Physics, 111: 100, 2021 <a href="https://doi.org/10.1007/s11005-021-01444-8">online version</a>. <a href="https://arxiv.org/abs/2105.01332">arXiv:2105.01332</a>. </p>
-<p>Cartan Connections and Integrable Vortex Equations. Journal of Geometry and Physics, 2022 <a href="https://doi.org/10.1016/j.geomphys.2022.104613">online version</a>. <a href="http://arxiv.org/abs/2112.08328">arXiv:2112.08328</a></p>
-<p>Domain Wall Skyrmions in Chiral Magnets (with Muneto Nitta). Phys. Rev. B 107, 024422, 2023 <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.024422" >online version</a>. <a href="http://arxiv.org/abs/2205.11417">arXiv:2205.11417</a></p>
-<p>Calorons and constituent monopoles (with Lorenzo Foscolo). Communications in Mathematical Physics (2023) available online <a href= "https://doi.org/10.1007/s00220-023-04827-1 "> here</a>. <a href="http://arxiv.org/abs/2207.08705">arXiv:2207.08705</a></p>
-<p>Building Paraxial Optical Skyrmions Using Rational Maps (with Claire Cisowski and Sonja Franke-Arnold). Adv. Photonics Res., 4: 2200350, 2023 <a href="https://onlinelibrary.wiley.com/doi/10.1002/adpr.202200350"> online version </a>. <a href="http://arxiv.org/abs/2207.12741">arXiv:2207.12741</a></p>
-<p>The Asymptotic Structure of the Centred Hyperbolic 2-Monopole Moduli Space (with Guido Franchetti). SIGMA 19 (2023), 043 <a href="https://doi.org/10.3842/SIGMA.2023.043"> online version </a>. <a href="https://arxiv.org/abs/2302.13792">arXiv:2302.13792</a></p>
-
-<h4>Preprints</h4>
-<p>Domain-wall skyrmion chain and domain wall bimerons in chiral magnets (with Yuki Amari and Muneto Nitta). <a href ="https://arxiv.org/abs/2311.05174"> arXiv:2311.05174</a></p>
-
-
-<!-- <h4>In preparation</h4> -->
-
-
-
-<h3>Talks</h3>
-<p>June 2023, Instantons and constituents at <a href = "https://sig.fais.uj.edu.pl/main">SIG XI </a></p>
-<p>October 2022, A Gluing Construction for Calorons in the <a href="https://drbenlambert.github.io/GeometrySeminar22-23S1.html"> Leeds Geometry Seminars</a> at the University of Leeds.</p>
-<p>July 2022 Calorons and Constituent Monopoles at the <a href="https://www.kent.ac.uk/smsas/personal/skyrmions/GMNM2022/">Geometric Models of Nuclear Matter conference</a>.</p>
-<p>March 2022 Calorons and Constituent Monopoles as part of the <a href="http://solitonsatwork.net/?display=seminars">Solitons at Work</a> seminar series. A recording of the talk is available <a href= "https://youtu.be/RNe4AJbX_aY"> here</a>.</p>
-<p>February 2022 Cartan Connections and Integrable Vortex Equations in the <a href="http://www.talks.cam.ac.uk/talk/index/169931"> DAMTP Mathematical Physics Seminars </a> in Cambridge</p>
-<p>November 2021 Periodic Instantons with Small Period in the <a href = " https://people.bath.ac.uk/masadk/seminar/geom/">Algebra, Geometry and Number Theory seminar</a> at the University of Bath.</p> 
-<p>November 2021 Integrable Vortices and Flat Connections in the Leeds Geometry Seminars at the University of Leeds.</p>
-<p>May 2021 Magnetic Impurities, Integrable Vortices and the Toda Equation as part of the <a href="http://solitonsatwork.net/?display=seminars">Solitons at Work</a> seminar series. A recording of the talk is available <a href="https://www.youtube.com/watch?v=I1C3txYpbrg"> here</a>.</p>
-<p>November 2020 Mathematical models of topological solitons at an internal UCC physics seminar.</p>
-<p>September 2020 Magnetic Skyrmions in solvable chiral magnets as part of the <a href ="http://www1.maths.leeds.ac.uk/~pmtcjh/GMNM/"> Geometric Models of Nuclear Matter Digital Seminar Series</a>.</p>
-<p>January 2020 Magnetic Skyrmions from Gauged CP^1 Models at the <a href="https://indico.rcnp.osaka-u.ac.jp/event/1394/overview">CP^N model: recent developments and future directions</a> workshop at Keio University. </p>
-<p>May 2019 Magnetic Skyrmions at Critical Coupling as a condensed matter theory  <a href="https://www.sinova-group.physik.uni-mainz.de/seminar/">seminar</a> at the University of  Mainz. </p>
-<p>April 2019 Magnetic Skyrmions at Critical Coupling at the <a href="https://sites.google.com/site/keiotopsci/seminars ">Keio Topological Science Project Seminars</a>. </p>
-<p>February 2019 Magnetic Skyrmions at Critical Coupling at the <a href="http://www.talks.cam.ac.uk/talk/index/117988">DAMTP Mathematical Physics Seminars</a> in Cambridge. </p>
-<p>July 2018  Hyperbolic vortices and flat connections at the <a href="http://www1.maths.leeds.ac.uk/~pmtdgh/leeds/programme.html">LEEDS</a> workshop on topological solitons in Leeds.</p>
-<p>January 2018 Vortices, Cartan connections and Magnetic Zero-Modes at the local <a href="https://empg.maths.ed.ac.uk/HTML/CurrentSeminars.html">EMPG</a> Seminars.</p>
-<p>June 2017 Magnetic Zero-Modes, Vortices and Cartan connections at the <a href="http://ckottke.ncf.edu/senworkshop/">Sen Conjecture and Beyond</a> workshop.</p>
-<p>April 2017 Metric structure of the moduli space of solutions to the self-duality equations at the <a href="http://wwwf.imperial.ac.uk/~at515/bigworkshop.html">BIG Workshop</a> on Higgs Bundles. </p>
-<p>September 2016 Solutions of the Perturbed Freund Equations at the second <a href="https://www.kent.ac.uk/smsas/personal/skyrmions/GMNMC2016.html">Geometric Models of Nuclear Matter Conference</a>. </p>
-<p>March 2016 Topological Electromagnetism and the Seiberg-Witten Equations at the <a href="http://www.macs.hw.ac.uk/~anatolyk/NBMPS46.html">46th NBMPS</a>. </p>
-
-
-<h3>Teaching</h3>
-<h4> At Edge Hill University:</h4>
-<p>2023/2024 Lecturer for STM0005 Physics.</p>
-<p>2023/2024 Lecturer for STM0002 Group Project. </p>
-<h4>At University College London.</h4>
-<p>2022/2023 tutorials for Math0016 Mathematical Methods 3 </p>
-<p> 2022/2023 tutorials for Math0011 Mathematical Methods 2</p>
-<h4> At University College Cork:</h4>
-<p>2020/2021 Lecturer for PY2101 Classical Mechanics. </p>
-<p>2020/2021 Lecturer for PY3104 Statistical Thermodynamics, a syllabus for the course is available <a href="https://cdross1.github.io/teaching/py3104_syllabus.pdf">here</a>.</p>
-<p>2020/2021 Lecturer for PY4126 Radiative Processes.</p>
-<h4> At Heriot Watt University:</h4>
-<p>2016/2017 tutorials for the <a href="https://www.smstc.ac.uk/">SMSTC</a> Geometry and Topology stream. </p>
-<p>2016/2017 tutorials for F17XB Maths for Engineers and Scientists 2. </p>
-<p>2017/2018 tutorials for F17CC Introduction  to University Maths. The course webpage is <a href="http://www.macs.hw.ac.uk/~markl/teaching/IUM.html">here</a>.</p>
-<p>2017/2018 tutorials for <a href="https://www.smstc.ac.uk/">SMSTC</a> Geometry and Topology stream</p>
-<p>2017/2018 tutorials for F18XD Maths for Engineers and Scientists 4. The webpage for the course is <a href="http://www.macs.hw.ac.uk/~andrewl/F18XD2/">here</a>. </p>
-<p>2018/2019 tutorials for F17CC Introduction  to University Maths. The course webpage is still in the <a href="http://www.macs.hw.ac.uk/~markl/teaching/IUM.html">same place</a>.</p>
-<h4>LMS Lectures:</h4>
-<p>In September 2020 I gave two lectures on topological solitons as part an <a href="https://www-users.york.ac.uk/~bv557/LMSOnlineLectures.html">NBMPS</a> lecture series funded by the LMS. The notes and slides will be made available on the NBMPS page and  <a href= "https://cdross1.github.io/notes/topology_in_physics_lecture_notes.pdf"> here</a>. The Lecture slides are  <a href= "https://cdross1.github.io/notes/topology_in_physics_lecture1.pdf"> here</a> and  <a href= "https://cdross1.github.io/notes/topology_in_physics_lecture2.pdf"> here</a>. The videos of the lectures have gone up on the LMS youtube channel  <a href="https://www.youtube.com/watch?v=33JLo7OPGHU&list=PLsDn5JyJXoYK9GzEdQOrOmkaTGUnHZAuG&index=1&ab_channel=LondonMathematicalSociety">lecture 1 here</a> and  <a href="https://www.youtube.com/watch?v=Kh8ltGxVPPo&list=PLsDn5JyJXoYK9GzEdQOrOmkaTGUnHZAuG&index=2&ab_channel=LondonMathematicalSociety">lecture 2 here</a>.</p>
-<p>Another set of LMS funded Solitons lectures put on by the Yorkshire Durham Geometry Day are available <a href= "http://www1.maths.leeds.ac.uk/~pmtcjh/LMSsoliton/">here</a>. They cover complimentary topics to my lectures, including; vortices, instantons and the Nahm transform, and nuclear Skyrmions. </p>
-
-
-<h3>Reading Groups</h3>
-<p>While a PhD student at Heriot-Watt I was invloved as an organiser and a participant in a variety of reading groups.</p>
-<p>January 2017 - September 2017: I organised a reading group on String Theory and D-Branes following Richard J. Szabo. An Introduction to String Theory and D-Brane Dynamics (With Problems and Solutions). ICP, 2 edition, 2011. Notes from this reading group are included in the notes section below.</p>
-<p>October 2017 - January 2018: I participated in a reading group renormalisation and effective field theories following the book by Costello. Following this reading group we decided to start a short seminar series, the details of which are  <a href="https://cdross1.github.io/mpmss">here</a>.  </p>
-<p>October 2018 - March 2019: I organised a reading group on Statistical Field Theory following David Tongs Lecture <a href="http://www.damtp.cam.ac.uk/user/tong/sft.html"> notes</a> .  </p>
-<p>The reading group moved online in 2020 and I started to participate again.</p>
-<p>October 2020 - April 2021: I organised a reading group on Yang-Mills Equations over Riemann Surfaces following the seminal paper by Atiyah and Bott. A partial webpage for this reading group is available <a href="https://cdross1.github.io/reading_group/Yang_Mills_reading_group">here</a>. </p>
-<p>June 2022-July 2022: I was involved in a reading group on Nahm's equations and hyperk&auml;hler quotient constructions. A partial webpage is available <a href="https://cdross1.github.io/reading_group/Nahms_equations_reading_group">here</a>.</p>
-<p>October 2022- Present: I am involved in a reading group about Instantons on gravitational instantions following the paper by Kronheimer and Nakajima. A rough webpage for the reading group is available <a href="https://cdross1.github.io/reading_group/Instantons_on_gravitational_instantons_reading_group">here</a>.</p>
-
-
-<h3>Notes</h3>
-<p>Here are a selection of notes that I made to remind myself about interesting topics that I started reading about. N.B some of the links might be dead as I have migrated files from my Heriot Watt webpage.<p>
-<ul>
-	<li><a href= "https://cdross1.github.io/notes/moment_maps.pdf"> Notes<a> on moment maps and the Hyperk&aumlhler structure of the moduli space of solutions to Hitchin's Self-duality equations. </li>
-	<li><a href="https://cdross1.github.io/notes/strings_reading_group_notes.pdf"> Notes</a> on String Theory relating to the reading group we are having. The plan was that everyone would contribute to these notes but in the end it was just me. There are a couple of gaps where I did not have time to tex up some of the computations that we discussed.</li>
-	<li><a href="https://cdross1.github.io/notes/membrane_dynamics-talk.pdf"> Notes</a> for a talk I gave on classical bosonic membrane dynamics as part of our D-Brane reading group. </li>
-	<li><a href= "https://cdross1.github.io/notes/rational_maps.pdf"> Notes<a> on rational maps that I made to remind myself of their properties and relation to vortices. </li> 
-	<li> <a href= "http://personal.maths.surrey.ac.uk/st/M.Wolf/" >Martin Wolf </a> from the university of Surrey gave a short introductory course on Twistor theory at Heriot-Watt from 27/11/17-30/11/17. The lectures contained many exercises and some of us spent some time solving them. The exercises and our sketch solutions are <a href= "https://cdross1.github.io/notes/twistor_exercises.pdf"> here<a>.
-	<li>Some  <a href= "https://cdross1.github.io/notes/monopoles_and_spectral_curves.pdf"> notes</a> on Monopoles, mini-twistors and spectral curves that I made ( am still making) while reading papers about the topics so that I could keep some conventions to hand. </li>	
-</ul>  
+<h3>Other Interests </h3>
+<p>As you can probably tell from all the photos on this page I am a keen hillwalker and climber. I can also often be found out cycling. </p>
    
-<img src="nice_view.jpg" alt="" width="1320" height="300">
+<img src="nice_view.jpg" alt="" width="1320" height="300" class="center">
 </body>
 
 </html>
