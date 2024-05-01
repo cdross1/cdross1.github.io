@@ -23,11 +23,31 @@ th {
   margin-left: auto;
   margin-right: auto;
 }
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 </style>
 </head>
 <body style="background-color:lightgrey;">
+<div class="row">
+  <div class="column">
+    <img src="bloch.jpg" alt="" width="500" height="400" class="center">
+  </div>
+  <div class="column">
+   <img src="B4_plot.png" alt="" width="500" height="400" class="center">
+  </div>
+</div>
 
-<img src="bloch.jpg" alt="" width="500" height="400" class="center"><img src="B4_plot.png" alt="" width="500" height="400" class="center">
 
 <h1 style="text-align:center;">Topological Solitons at Edge Hill</h1>
 
